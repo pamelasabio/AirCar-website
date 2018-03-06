@@ -1,0 +1,78 @@
+/* ----------------------------------------------------------------Start of mainDiv---------------------------------------------------------------- */
+#mainDiv{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    margin-top: 50px;
+    width: 100%;
+}
+
+#mainCarDiv{
+   
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+#bigImageDiv{
+    height: 50%;
+}
+
+#bigImage{
+    width: 100%;
+    height: 100%;
+}
+
+.thumbnails img{
+    width:15%;
+    height: 120px;
+    margin-left: 5%;
+    margin-top: 1%;
+    border: 4px solid #555;
+    padding 1px;
+}
+
+.thumbnails img:hover {
+    border: 4px solid deepskyblue;
+    cursor: pointer;
+}
+
+/* Styling for information table */
+#informationTable tr{
+    margin-top: 1%;
+}
+
+#informationTable{
+    width: 100%;
+    margin-top: 3%;
+}
+
+.headerClass{
+    color: deepskyblue;
+}
+
+#informationTable th{
+    color: deepskyblue;
+}
+
+#totalPrice{
+    color: limegreen;
+    float: right;
+}
+
+#descriptionDiv{
+    width: 100%;
+    height: auto;
+}
+
+
+p{
+    width: 100%;
+    word-wrap:break-word;
+}
+
+#footerSpan{
+    margin-top: 30%;
+}
+
+

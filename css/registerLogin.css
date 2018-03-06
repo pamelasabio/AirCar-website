@@ -1,0 +1,172 @@
+#containerId{
+    width: 100%;
+}
+
+/* ----------------------------------------------------------------Start of loginbox-------------------------------------------------------------- */
+
+#email, #password {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    height: 50px;
+}
+
+#email{
+    margin-top: 40px;
+}
+
+#nameText{
+    height:50px;
+}
+
+input[type="password"], input[type="email"]{
+    height: 50px;
+}
+
+input[type ="checkbox"]{
+    margin-left: 20px;
+}
+
+#forgotpw{
+    float: right;
+    margin-right: 20px;
+}
+
+#login {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.logregbuttons{
+    background-color: white;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+    cursor: pointer;
+    width: 80px;
+    float: right;
+    margin-top: -10px;
+    margin-right: 20px;
+}
+
+#noaccount{
+    margin-left: 20px;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+
+    background-color: #f44336;
+}
+
+/* position the close button */
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+#forgotPassTr{
+    background-color:#f1f1f1;
+    width: 100%;
+}
+
+#containerId{
+    width: 100%;
+    border: none;
+}
+
+#tableDiv{
+    border: none;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+    border: none;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 30%;/* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+#mainrightNav{
+    background-color: transparent;
+    margin-right:20px;
+    margin-top: 15px;
+    color: white;
+}
+
+#rightMainDiv{
+    float: right;
+}
+
+.buttonsMainNav
+{
+    border: 0px;
+    background-color: transparent;
+    color: white;
+    margin-right: 20px;
+}

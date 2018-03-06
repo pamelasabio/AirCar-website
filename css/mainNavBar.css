@@ -1,0 +1,29 @@
+#mainheaderNav{
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    border: none;
+    width: 100%;
+}
+
+#headerNav{
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    border: none;
+    width: 100%;
+}
+
+#rightnav{
+    margin-right: 10px;
+}
+
+#rightnav button{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+#rightnav button:hover{
+    background-color: transparent;
+    border: none;
+    color: red;
+}

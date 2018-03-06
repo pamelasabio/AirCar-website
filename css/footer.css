@@ -1,0 +1,77 @@
+/* --------------------------------Start of the footer-------------------------------- */
+#footerDiv{
+    background-color: lightskyblue;
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding-top:1%;
+    width: 100%;
+    height: auto;
+}
+
+
+/* --------------------------------Start of the headers-------------------------------- */
+
+.header3Class{
+    padding-top: 0;
+    margin-top: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* --------------------------------Start of the images-------------------------------- */
+#fbImage{
+    width: 30%;
+}
+
+#twitterImage{
+    width: 23%;
+}
+
+#ytImage{
+    width: 23%;
+    margin-left: 3%;
+}
+
+.hoverClass{
+    color:white;
+    font-weight: 100;
+    list-style:none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.hoverClass li:hover{
+    font-weight: 300;
+    color:red;
+}
+
+#footerOwnerId{
+    color: white;
+    list-style: none;
+    padding: 0;
+}
+
+#footerOwnerId h4{
+    font-size: 24px;
+}
+
+#findMoreButton{
+    color: white;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    border-radius: 2%;
+    margin-left: 50px;
+}
+
+#footerFollowUsUl{
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footerFollowUsUl li{
+    display: inline;
+}

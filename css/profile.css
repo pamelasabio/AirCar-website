@@ -1,0 +1,18 @@
+#profileBody{
+    margin-top: 100px;
+}
+
+#profileBody img{
+    width:300px;
+    height:300px;
+}
+
+#profileBody input[type="file"]{
+    margin-left: -30px;
+}
+
+#uploadbtn{
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,154 @@
+/* ----------------------------------------------------------------Start of header---------------------------------------------------------------- */
+
+#headerNav{
+    background-color: transparent;
+    border: none;
+    height: 5%;
+    opacity: 0.9;
+    width: 100%;
+}
+
+#rightnav{
+    margin-right: 10px;
+}
+
+#rightnav button{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+/* ----------------------------------------------------------------Start of mainDiv---------------------------------------------------------------- */
+#mainDiv{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: yellow;
+    height: auto;
+    
+}
+
+#mainSearchDiv{
+    width: 80%;
+    height: 100%;
+    /*margin: auto;*/
+}
+
+#standardSearchDiv{
+    background-color: white;
+    opacity: 0.7;
+    width: 100%;
+    height: 45%;
+    position: relative;
+    top:20%;
+    
+}
+
+.redClass{
+   color: red;
+}
+
+/*Start of  text styling*/
+
+#textDiv{
+    width: 100%;
+    height: 20%;
+    position: relative;
+    top:25%;
+    color: white;
+    
+}
+
+#tableId{
+    width: 100%;
+}
+
+.thStyleClass{
+    font-size: 24px;
+    color: white;
+}
+
+.marginLeftClass{
+    margin-left: 25%;
+}
+
+/* Start of Search Div Styling */
+
+#place{
+    width: 50%;
+    margin: auto;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    background-image: url('images/search-icon.png');
+    background-size: 7%;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin-top: 1%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    
+}
+
+#place:focus{
+    width: 70%;
+    background-size: 4%;
+    background-color: black;
+    color:white;
+}
+
+th{
+    width: 40%;
+}
+
+#fromDatePicker{
+   /* margin-left: 50%; */ 
+}
+
+#toDatePicker{
+  /*  margin-left: 10%; */
+}
+
+.pickerStyle{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;   
+    padding: 5px 5px 5px 5px;
+    margin-top: 2%;
+}
+
+.pickerStyle:focus{
+    background-color: black;
+    color: white;
+}
+
+.noBorder{
+    border: none;
+}
+
+#priceHeader{
+    border: 3px solid dodgerblue;
+    border-bottom: none;
+}
+
+.blueBorder{
+    border-top: 3px solid dodgerblue;
+}
+
+text{
+    color: dodgerblue;
+}
+
+#searchButton {
+    background-color: dodgerblue;
+    margin-top: 8%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
